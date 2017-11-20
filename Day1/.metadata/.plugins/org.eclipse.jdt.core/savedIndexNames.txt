@@ -1,2 +1,0 @@
-INDEX VERSION 1.130+D:\Моє\Важливе\OPtaAM\Практика 2018\Day1\.metadata\.plugins\org.eclipse.jdt.core
-3380705583.index
