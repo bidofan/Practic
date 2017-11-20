@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Third {
+
+	public static void main(String[] args) {
+		int counter = 0;
+		System.out.print("Please write your string: ");
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		sc.close();
+		char[] cstr = str.toCharArray();
+		for(char i : cstr) {
+			if(i == 'x' || i == 'X') 
+				counter++;
+		}
+		System.out.print("Number of 'x' symbols in string: " + counter);
+	}
+
+}
